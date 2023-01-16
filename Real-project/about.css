@@ -1,0 +1,94 @@
+.heading-cont {
+  background-image: url(images/about-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.heading-main {
+  text-align: center;
+  padding: 9rem;
+  color: #fff;
+  font-size: 4.4rem;
+  font-weight: 700;
+}
+.links {
+  padding-top: 4rem;
+}
+.heading-sub {
+  font-size: 3.6rem;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+.flex-btns {
+  padding-top: 2.4rem;
+  display: flex;
+  gap: 2rem;
+  padding-bottom: 4.8rem;
+}
+.padding-top {
+  padding-top: 2.4rem;
+}
+.flex-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+  text-decoration: none;
+}
+.color-css {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.light-white {
+  color: #949494;
+}
+.p {
+  padding-right: 0.5rem;
+}
+
+/* section cards */
+
+.about-cards {
+  background-color: #f9f9f9;
+  padding-bottom: 7.2rem;
+}
+.heading-cards {
+  font-size: 2.8rem;
+  font-weight: 700;
+  padding-top: 4rem;
+  padding-bottom: 2.4rem;
+}
+
+.card-about {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  background-color: #fff;
+  border-radius: 0.8rem;
+}
+.sub-heading-card {
+  font-size: 2.2rem;
+  font-weight: 700;
+  padding-top: 2.4rem;
+}
+.description-card {
+  font-size: 1.8rem;
+  color: #636871;
+  font-weight: 400;
+  padding-bottom: 0.4rem;
+}
+.price-card {
+  font-size: 1.8rem;
+  padding-bottom: 2.4rem;
+}
+.sub-heading-card,
+.price-card,
+.description-card {
+  padding-left: 2.4rem;
+}
+
+.grid-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 2.4rem;
+}
